@@ -5,7 +5,7 @@
 </div>
 # 📗 Table of Contents
 
-- <h1> About the Project</h1>
+-📖 About the Project
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
