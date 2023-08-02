@@ -4,7 +4,6 @@
 
 </div>
 # 📗 Table of Contents
-
 -📖 About the Project
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -63,7 +62,7 @@ And go to that folder where you want the project for example if you want to have
   cd my-folder
   C:\Users\Dell\my-folder
 After you can clone using this command  
-  git clone https://github.com/ZabihullahNooriWardak/toDoList
+  git clone https://github.com/ZabihullahNooriWardak/LeaderBoard.git
 
 
 ### Install
