@@ -5,7 +5,7 @@
 </div>
 # 📗 Table of Contents
 
-- [📖 About the Project]
+- <h1> About the Project</h1>
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -15,7 +15,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-- [👥 Authors](#authors)
+- [👥 Authors](#authors)  
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
