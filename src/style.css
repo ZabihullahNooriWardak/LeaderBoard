@@ -1,206 +1,27 @@
-div.container {
-  width: 60%;
-  text-align: center;
-  background-color: rgb(85, 122, 149);
-  border-radius: 10px 10px 0 0;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+input {
+  display: block;
+  margin-bottom: 5px;
 }
 
-.all {
-  font-weight: bold;
-  font-family: sans-serif;
-  font-size: 22.5px;
+.allScores {
+  border: 2px solid black;
+  width: 350px;
+  min-height: 350px;
 }
 
-.trashSpan {
-  margin-left: 20px;
-}
-
-.trashSpan:hover {
-  cursor: pointer;
-}
-
-.chkp {
+.header {
   display: flex;
-}
-
-.tsk {
-  margin-left: 10px;
-}
-
-.clear:hover {
-  cursor: pointer;
-}
-
-.msg {
-  display: none;
-  margin: 0 auto;
-  margin-right: 130px;
-  color: red;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-body {
-  font-family: sans-serif;
-  background-color: rgb(115, 149, 174);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.clearParent {
-  width: 60%;
-  margin-top: 0;
-  background-color: rgb(85, 122, 149);
-  border-radius: 0 0 10px 10px;
-}
-
-.txtEdit {
-  width: 80%;
-  height: 100%;
-  border-radius: 5px;
-  border: 1.7px solid black;
-}
-
-.cancel {
-  width: 15%;
-  height: 100%;
-  border-radius: 5px;
-  border: 1.7px solid black;
-  background-color: red;
-  margin: 0 3px;
-}
-
-.save {
-  width: 15%;
-  height: 100%;
-  border-radius: 5px;
-  background-color: greenyellow;
-  border: 1.7px solid black;
-}
-
-.edit:hover {
-  cursor: pointer;
-}
-
-.inputs {
-  display: flex;
-  justify-content: space-around;
-}
-
-div.header {
-  display: flex;
+  width: 350px;
   justify-content: space-between;
-  margin: 0 20px;
   align-items: center;
 }
 
-.header i {
-  font-size: 40px;
-}
-
-.inputs input {
-  width: 70%;
-  height: 40px;
-  border-radius: 5px;
-  border: 1.8px solid black;
-}
-
-div.inputs button {
-  width: 20%;
-  height: 44px;
-  font-size: 22px;
-  border: 1.8px solid black;
-  border-radius: 7px;
-}
-
-div.clear {
-  width: 25%;
-  border: 1.5px solid black;
-  margin: 5px auto;
-  background-color: aliceblue;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  padding: 7px;
-  margin-top: 0;
-}
-
-div.tasks {
-  width: 95%;
-  min-height: 190.009px;
-  margin: 5px auto;
-  max-height: 50vh;
-  overflow-y: auto;
-  border-radius: 9px;
-}
-
-.editContainer {
-  width: 95%;
+button {
   height: 30px;
-  margin: 4px auto;
-  padding: 0 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: none;
 }
 
-.dynamicElement {
-  background-color: rgb(147, 142, 148);
-  width: 95%;
-  margin: 3px auto;
-  padding: 0 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1.8px solid black;
-  border-radius: 5px;
-}
-
-.containerIcons {
+.container {
+  /* width: ; */
   display: flex;
   justify-content: space-around;
-  align-items: center;
-}
-
-span i.bx {
-  color: white;
-  font-size: 27px;
-}
-
-.edit i.bx {
-  font-size: 30px;
-}
-
-.chkBox {
-  transform: scale(1.5);
-}
-
-@media screen and (max-width: 768px) {
-  div.container {
-    width: 97%;
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-
-  .clearParent {
-    width: 97%;
-  }
-
-  div.tasks {
-    min-height: 330px;
-  }
-
-  div.inputs {
-    display: flex;
-    align-items: center;
-  }
 }
