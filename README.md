@@ -38,8 +38,7 @@
 
 - **[User-friendly Interface]**
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://zabihullahnooriwardak.github.io/brandNewTodoApp/dist)
+ comming soon 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
