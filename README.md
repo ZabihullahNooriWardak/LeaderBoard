@@ -1,11 +1,11 @@
 <a name="readme-top"></a>
 
-  <h3><b>To do App</b></h3>
+  <h3><b>LeaderBoard</b></h3>
 
 </div>
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 About the Project]
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -20,13 +20,9 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](https://github.com/ZabihullahNooriWardak/AwesomeBook/blob/feature/LICENSE)
+- [📝 License](https://github.com/ZabihullahNooriWardak/LeaderBoard/blob/dev/LICENSE)
 
 <!-- PROJECT DESCRIPTION -->
-
-# 📖 [ To Do App] <a name="about-project"></a>
-
- > This is web based app which is used for storing(listing) daily activity.
 
 ## 🛠 Built With <a name="built-with"></a>
 
