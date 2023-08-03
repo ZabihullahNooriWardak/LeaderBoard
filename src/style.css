@@ -1,0 +1,27 @@
+input {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.allScores {
+  border: 2px solid black;
+  width: 350px;
+  min-height: 350px;
+}
+
+.header {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  height: 30px;
+}
+
+.container {
+  /* width: ; */
+  display: flex;
+  justify-content: space-around;
+}
