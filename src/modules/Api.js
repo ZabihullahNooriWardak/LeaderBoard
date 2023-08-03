@@ -33,7 +33,7 @@ const displayAllScore = async () => {
     const allDataObject = await catchData();
     const arrayOfAllData = allDataObject.result.sort((a, b) => b.score - a.score);
     const divAllScore = document.querySelector('.allScores');
-
+    divAllScore.innerHTML = '';
     for (let i = 0; i < arrayOfAllData.length; i += 1) {
       const div = `<div id='dynamic'><p>${arrayOfAllData[i].user}</p><p>${arrayOfAllData[i].score}</p></div>`;
       divAllScore.insertAdjacentHTML('beforeend', div);
