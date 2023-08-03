@@ -38,7 +38,7 @@
 
 - **[User-friendly Interface]**
 ## 🚀 Live Demo <a name="live-demo"></a>
-   #### comming soon 
+### [ live demo link ](https://zabihullahnooriwardak.github.io/LeaderBoard/dist/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
