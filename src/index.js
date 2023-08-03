@@ -1,22 +1,20 @@
 import './style.css';
-import { addData,catchData,displayAllScore } from './modules/Api.js';
-// API endpoint URL
-
-// addData('Ansar',38);
+import { addData, displayAllScore } from './modules/Api.js';
 // catchData();
-// displayAllScore();
-let submitBtn=document.querySelector('#submit');
-let nameTxtField = document.querySelector('#name');
-let scoreTxtField = document.querySelector('#score');
-let scoreValue = scoreTxtField.value;
-let nameValue = nameTxtField.value;
-displayAllScore();
-submitBtn.addEventListener('click',function(e){
-    e.preventDefault();
-    console.log(nameValue + scoreValue);
-   
-        // console.log('data is addign kfdjkjfsfdkfjsdkfljfksdlajfalkfjadklj');
-        addData(nameValue,scoreValue);
-        displayAllScore();
-
-})
+const submitBtn = document.querySelector('#submit');
+const nameTxtField = document.querySelector('#name');
+const scoreTxtField = document.querySelector('#score');
+window.onload = () => {
+  displayAllScore();
+};
+document.getElementById('refresh').addEventListener('click', () => {
+  displayAllScore();
+});
+submitBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  const scoreValue = scoreTxtField.value;
+  const nameValue = nameTxtField.value;
+  addData(nameValue, scoreValue);
+  scoreTxtField.value = '';
+  nameTxtField.value = '';
+});

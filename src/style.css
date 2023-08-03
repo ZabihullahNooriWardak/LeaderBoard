@@ -3,6 +3,11 @@ input {
   margin-bottom: 5px;
 }
 
+div#dynamic {
+  display: flex;
+  justify-content: space-around;
+}
+
 .allScores {
   border: 2px solid black;
   width: 350px;
@@ -21,7 +26,6 @@ button {
 }
 
 .container {
-  /* width: ; */
   display: flex;
   justify-content: space-around;
 }
