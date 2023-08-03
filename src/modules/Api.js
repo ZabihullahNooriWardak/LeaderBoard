@@ -1,27 +1,34 @@
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/0pNrfjBwCKXqbjF87mV/scores/';
-const addData = function (name, score) {
-  const DataToSend = {
+const addData = async (name, score) => {
+  const dataToSend = {
     user: name,
     score,
   };
-  fetch(url, {
-    method: 'post',
-    body: JSON.stringify(DataToSend),
-    headers: {
-      'Content-type': 'application/json; charset=UTF-8',
-    },
-  })
-    .then((res) => res.json())
-    .then((data) => data);
+
+  try {
+    const response = await fetch(url, {
+      method: 'post',
+      body: JSON.stringify(dataToSend),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },
+    });
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
 };
 
-const catchData = async function () {
+const catchData = async () => {
   const data = await fetch(url);
   const parsedData = await data.json();
   return parsedData;
 };
 
-async function displayAllScore() {
+const displayAllScore = async () => {
   try {
     const allDataObject = await catchData();
     const arrayOfAllData = allDataObject.result.sort((a, b) => b.score - a.score);
@@ -34,6 +41,6 @@ async function displayAllScore() {
   } catch (error) {
     console.error('Error:', error);
   }
-}
+};
 
 export { addData, catchData, displayAllScore };
