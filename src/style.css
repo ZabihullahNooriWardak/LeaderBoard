@@ -6,6 +6,7 @@ input {
   border-radius: 5px;
   border: 0.2px solid black;
   text-align: center;
+  background-color: rgb(237, 245, 224);
 }
 
 .inputContainer {
