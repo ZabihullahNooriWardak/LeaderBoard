@@ -12,21 +12,24 @@
     <div class="right">
     <div class="header">
       <h3>Recent Scores</h3>
-      <button>Refresh</button>
+      <button id="refresh">Refresh</button>
     </div>
     <div class="allScores"></div>
     </div>
     <div class="left">
       <form action="">
         <h3>Add your scrore</h3>
-        <input type="text" placeholder="Your name">
-        <input type="text" placeholder="Your Score">
-        <input type="submit">
+        <input id="name" type="text" placeholder="Your name">
+        <input id="score" type="number" placeholder="Your Score">
+
+        <input id="submit" type="submit">
 
       </form>
 
     </div>
   </div>
 </body>
+
 <script src="index.js"></script>
+<script src="modules/Api.js"></script>
 </html>
