@@ -1,6 +1,30 @@
 input {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.2px solid black;
+  text-align: center;
+  background-color: rgb(237, 245, 224);
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input#submit {
+  transition: all 0.4s ease-in;
+  color: rgb(237, 245, 224);
+  background-color: #05386b;
+  width: 150px;
+}
+
+#submit:hover {
+  color: black;
+  background-color: white;
 }
 
 div#dynamic {
@@ -8,21 +32,54 @@ div#dynamic {
   justify-content: space-around;
 }
 
+h3,
+p {
+  font-family: sans-serif;
+  color: rgb(5, 57, 107);
+}
+
+h1 {
+  color: rgb(237, 245, 224);
+  background-color: rgb(56, 149, 131);
+  font-family: sans-serif;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+
+body {
+  background-color: rgb(92, 219, 148);
+}
+
 .allScores {
-  border: 2px solid black;
-  width: 350px;
   min-height: 350px;
+  border-radius: 9px;
+  border: 0.2px solid black;
+  width: auto;
+  padding: 20px;
+  background-color: rgb(237, 245, 224);
 }
 
 .header {
   display: flex;
-  width: 350px;
+  width: auto;
   justify-content: space-between;
   align-items: center;
 }
 
 button {
-  height: 30px;
+  transition: all 0.4s ease-in;
+  color: rgb(237, 245, 224);
+  background-color: #05386b;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.2px solid black;
+  padding: 10px;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
 }
 
 .container {
